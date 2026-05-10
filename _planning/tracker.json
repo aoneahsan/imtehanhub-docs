@@ -6,10 +6,10 @@
   "createdOn": "2026-05-10",
   "lastUpdated": "2026-05-10",
   "status": "in-progress",
-  "currentBatch": "batch-0",
-  "nextBatch": "batch-1",
+  "currentBatch": "batch-1",
+  "nextBatch": "batch-2",
   "totalBatches": 8,
-  "completedBatches": 1,
+  "completedBatches": 2,
   "lastSuccessfulRun": null,
   "nextEligibleRun": null,
   "cooldownDays": 7,
@@ -49,10 +49,24 @@
     {
       "id": "batch-1",
       "title": "Getting Started + Core Concepts (11 pages)",
-      "status": "pending",
-      "estimatedPages": 11,
-      "estimatedWords": 9300,
-      "skillsRequired": ["documentation-writer", "copywriting", "ai-seo"]
+      "status": "complete",
+      "completedOn": "2026-05-10",
+      "pages": [
+        "docs/getting-started/quick-start.md",
+        "docs/getting-started/sign-in.md",
+        "docs/getting-started/free-trial.md",
+        "docs/getting-started/pick-class.md",
+        "docs/getting-started/pick-board.md",
+        "docs/concepts/content-hierarchy.md",
+        "docs/concepts/question-types.md",
+        "docs/concepts/bilingual.md",
+        "docs/concepts/quotas-and-plans.md",
+        "docs/concepts/streaks-and-stats.md",
+        "docs/concepts/achievements.md"
+      ],
+      "wordCountApprox": 13500,
+      "skillsInvoked": ["documentation-writer", "copywriting", "ai-seo"],
+      "sidebarUpdates": "Expanded Getting Started (5 new), added Core Concepts category (6 new)"
     },
     {
       "id": "batch-2",

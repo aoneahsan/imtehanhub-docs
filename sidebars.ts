@@ -22,7 +22,33 @@ const sidebars: SidebarsConfig = {
         description:
           'Sign in, take your first test, and explore ImtehanHub in 3 minutes.',
       },
-      items: ['getting-started/welcome'],
+      items: [
+        'getting-started/welcome',
+        'getting-started/quick-start',
+        'getting-started/sign-in',
+        'getting-started/free-trial',
+        'getting-started/pick-class',
+        'getting-started/pick-board',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Core Concepts',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        slug: '/concepts',
+        description:
+          'How ImtehanHub organises classes, subjects, books, chapters, and questions — and the bilingual + plan models that wrap them.',
+      },
+      items: [
+        'concepts/content-hierarchy',
+        'concepts/question-types',
+        'concepts/bilingual',
+        'concepts/quotas-and-plans',
+        'concepts/streaks-and-stats',
+        'concepts/achievements',
+      ],
     },
     {type: 'doc', id: 'credits', label: 'Credits'},
   ],
