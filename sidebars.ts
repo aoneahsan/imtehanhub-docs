@@ -72,6 +72,33 @@ const sidebars: SidebarsConfig = {
         'tests/streaks',
       ],
     },
+    {
+      type: 'category',
+      label: 'Community Module',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/community',
+        description:
+          'Submit MCQs, vote, flag, comment, earn achievements, and become a moderator. The full peer-contribution surface that closes the long tail of Pakistani curriculum coverage.',
+      },
+      items: [
+        'community/overview',
+        'community/cnic-verification',
+        'community/submit-mcq',
+        'community/submit-short',
+        'community/submit-long',
+        'community/submit-chapter-explanation',
+        'community/bilingual-gate',
+        'community/voting',
+        'community/flagging',
+        'community/comments',
+        'community/quotas',
+        'community/strikes-bans',
+        'community/moderator',
+        'community/promote-to-official',
+      ],
+    },
     {type: 'doc', id: 'credits', label: 'Credits'},
   ],
 };
