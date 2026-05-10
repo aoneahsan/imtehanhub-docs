@@ -1,0 +1,238 @@
+/* ImtehanHub Docs — brand styles
+ * Brand: Emerald 600 (#059669) → Sky 500 (#0EA5E9) — Pakistan flag green → trust blue
+ * Typography: Inter (UI), JetBrains Mono (code)
+ */
+
+:root {
+  /* Brand primary scale (Emerald 600 base) */
+  --ifm-color-primary: #059669;
+  --ifm-color-primary-dark: #047857;
+  --ifm-color-primary-darker: #036245;
+  --ifm-color-primary-darkest: #014c37;
+  --ifm-color-primary-light: #10b981;
+  --ifm-color-primary-lighter: #34d399;
+  --ifm-color-primary-lightest: #6ee7b7;
+
+  /* Custom brand tokens */
+  --ih-accent: #0ea5e9;
+  --ih-accent-soft: #e0f2fe;
+  --ih-gradient: linear-gradient(135deg, #059669 0%, #0ea5e9 100%);
+  --ih-fg: #0f172a;
+  --ih-fg-muted: #475569;
+  --ih-bg: #f8fafc;
+  --ih-surface: #ffffff;
+  --ih-border: #e2e8f0;
+
+  /* Type */
+  --ifm-font-family-base:
+    'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace:
+    'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --ifm-heading-font-weight: 700;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 1.75rem;
+  --ifm-h3-font-size: 1.375rem;
+  --ifm-code-font-size: 92%;
+
+  /* Layout */
+  --ifm-container-width: 1200px;
+  --ifm-container-width-xl: 1280px;
+  --ifm-navbar-height: 64px;
+  --ifm-navbar-shadow: 0 1px 0 var(--ih-border);
+
+  /* Code highlight */
+  --docusaurus-highlighted-code-line-bg: rgba(5, 150, 105, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #34d399;
+  --ifm-color-primary-dark: #10b981;
+  --ifm-color-primary-darker: #059669;
+  --ifm-color-primary-darkest: #047857;
+  --ifm-color-primary-light: #6ee7b7;
+  --ifm-color-primary-lighter: #a7f3d0;
+  --ifm-color-primary-lightest: #d1fae5;
+
+  --ih-accent: #38bdf8;
+  --ih-accent-soft: #0c4a6e;
+  --ih-gradient: linear-gradient(135deg, #10b981 0%, #38bdf8 100%);
+  --ih-fg: #f8fafc;
+  --ih-fg-muted: #94a3b8;
+  --ih-bg: #0f172a;
+  --ih-surface: #1e293b;
+  --ih-border: #334155;
+
+  --docusaurus-highlighted-code-line-bg: rgba(52, 211, 153, 0.15);
+}
+
+html,
+body {
+  font-feature-settings: 'cv11', 'ss01';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Navbar — brand subtlety, no heavy shadow */
+.navbar {
+  border-bottom: 1px solid var(--ih-border);
+  backdrop-filter: saturate(180%) blur(8px);
+}
+
+/* Announcement bar — brand-tinted */
+div[class*='announcementBar'] {
+  font-weight: 500;
+}
+
+/* Hero section on home */
+.hero--imtehanhub {
+  background: var(--ih-gradient);
+  color: #ffffff;
+  padding: 5rem 0 4rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero--imtehanhub::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.18) 0%, transparent 50%),
+    radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.12) 0%, transparent 60%);
+  pointer-events: none;
+}
+.hero--imtehanhub h1,
+.hero--imtehanhub p {
+  color: #ffffff;
+}
+.hero--imtehanhub .hero__title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+.hero--imtehanhub .hero__subtitle {
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  font-weight: 400;
+  max-width: 720px;
+  opacity: 0.95;
+}
+.hero--imtehanhub .hero__urdu {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+}
+
+.hero__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.hero__cta--primary {
+  background: #ffffff;
+  color: var(--ifm-color-primary-darker);
+}
+.hero__cta--secondary {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.hero__cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+/* Feature cards on home */
+.features {
+  padding: 4rem 0;
+}
+.feature-card {
+  height: 100%;
+  padding: 1.75rem;
+  border: 1px solid var(--ih-border);
+  border-radius: 0.875rem;
+  background: var(--ih-surface);
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.feature-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 12px 28px -8px rgba(5, 150, 105, 0.25);
+}
+.feature-card__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 0.625rem;
+  background: var(--ih-gradient);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.feature-card h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.feature-card p {
+  color: var(--ih-fg-muted);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Better admonitions */
+.alert {
+  border-radius: 0.625rem;
+  border-width: 1px;
+}
+
+/* Code blocks — softer */
+.theme-code-block {
+  border-radius: 0.625rem;
+  font-size: 0.9rem;
+}
+
+/* Sidebar — denser, calmer */
+.menu__link {
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.75rem;
+}
+.menu__link--active {
+  font-weight: 600;
+}
+
+/* Built-by callout in footer */
+.footer {
+  padding-top: 3rem;
+}
+.footer__copyright {
+  font-size: 0.875rem;
+  opacity: 0.85;
+}
+
+/* Honour reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero__cta,
+  .feature-card {
+    transition: none !important;
+  }
+}
+
+/* Mobile tightening */
+@media (max-width: 768px) {
+  .hero--imtehanhub {
+    padding: 3rem 0 2.5rem;
+  }
+  .features {
+    padding: 2.5rem 0;
+  }
+}

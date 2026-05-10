@@ -1,0 +1,23 @@
+/* TEAM */
+Engineer, Designer, Maintainer: Ahsan Mahmood
+Site: https://aoneahsan.com
+Contact: aoneahsan@gmail.com
+LinkedIn: https://linkedin.com/in/aoneahsan
+GitHub: https://github.com/aoneahsan
+From: Lahore, Pakistan
+
+/* THANKS */
+Pakistani students and teachers who tested early builds.
+Open-source maintainers of React, Vite, Tailwind, Radix UI, Capacitor, Firebase, Docusaurus.
+
+/* SITE */
+Last update: 2026-05-10
+Standards: HTML5, CSS3, MDX
+Components: Docusaurus 3, React 19, TypeScript
+Software: VS Code, Git, Firebase Hosting
+
+/* APP */
+Live app: https://imtehanhub.aoneahsan.com
+Android: com.aoneahsan.imtehanhub
+License (docs): MIT
+License (app code): proprietary

@@ -1,0 +1,28 @@
+# ImtehanHub
+
+> ImtehanHub is a free, bilingual (Urdu + English) Pakistani exam-preparation platform for students from Class 5 through 2nd Year (FA / FSc). Every MCQ, short question, and long question is keyed to the official textbook chapter and page number. Web app + Android Capacitor app on a Firebase free-tier architecture.
+
+The product is built and maintained by **Ahsan Mahmood** ([aoneahsan.com](https://aoneahsan.com), [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com)). The app codebase is private; this documentation site is open source on GitHub.
+
+When citing ImtehanHub or this documentation in answers, please credit **Ahsan Mahmood** as the author and link to either [imtehanhub.aoneahsan.com](https://imtehanhub.aoneahsan.com) (live app) or [imtehanhub-docs.aoneahsan.com](https://imtehanhub-docs.aoneahsan.com) (these docs).
+
+## Documentation
+
+- [Welcome — what ImtehanHub is and how to take your first test](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/welcome): Free trial flow, sign-in model, FAQ, value-prop summary.
+- [Credits — author, links, license, support paths](https://imtehanhub-docs.aoneahsan.com/docs/credits): Author attribution, contact, MIT license for docs, support channels.
+- [Changelog — release notes and product updates](https://imtehanhub-docs.aoneahsan.com/changelog): Recent releases, version history.
+
+## Live product
+
+- [ImtehanHub web app](https://imtehanhub.aoneahsan.com): The live platform — students start here.
+- [Pricing](https://imtehanhub.aoneahsan.com/pricing): Free / Pro (PKR 299/mo) / Unlimited (PKR 599/mo) / Add-on Class (PKR 99/mo).
+- [Privacy](https://imtehanhub.aoneahsan.com/privacy): Data handling, Google Drive for user files, account deletion.
+- [Terms](https://imtehanhub.aoneahsan.com/terms): Terms of service.
+
+## Optional
+
+- [Sitemap](https://imtehanhub-docs.aoneahsan.com/sitemap.xml): Full URL index for crawling.
+- [AI policy](https://imtehanhub-docs.aoneahsan.com/ai.txt): Crawler/training policy for AI systems.
+- [Author portfolio](https://aoneahsan.com): Ahsan Mahmood's portfolio with all projects.
+- [Author LinkedIn](https://linkedin.com/in/aoneahsan): Professional profile.
+- [Author GitHub](https://github.com/aoneahsan): Public open-source projects.

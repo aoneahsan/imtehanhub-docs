@@ -1,0 +1,19 @@
+release:
+  label: Release
+  permalink: /release
+  description: Major and minor product releases for ImtehanHub.
+
+docs:
+  label: Docs
+  permalink: /docs-tag
+  description: Documentation site updates.
+
+community:
+  label: Community
+  permalink: /community
+  description: Community module — submissions, voting, moderation.
+
+seo:
+  label: SEO / AEO
+  permalink: /seo
+  description: Search and AI-search visibility work.

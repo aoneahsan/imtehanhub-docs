@@ -1,0 +1,125 @@
+{
+  "$schema": "imtehanhub-docs-tracker/v1",
+  "description": "Resumable progress tracker for the ImtehanHub documentation project. Re-running the docs prompt should always start by reading this file.",
+  "project": "imtehanhub-docs",
+  "owner": "Ahsan Mahmood <aoneahsan@gmail.com>",
+  "createdOn": "2026-05-10",
+  "lastUpdated": "2026-05-10",
+  "status": "in-progress",
+  "currentBatch": "batch-0",
+  "nextBatch": "batch-1",
+  "totalBatches": 8,
+  "completedBatches": 1,
+  "lastSuccessfulRun": null,
+  "nextEligibleRun": null,
+  "cooldownDays": 7,
+  "batches": [
+    {
+      "id": "batch-0",
+      "title": "Scaffold + branding + SEO baseline + planning files",
+      "status": "complete",
+      "completedOn": "2026-05-10",
+      "pages": [
+        "docs/getting-started/welcome.md",
+        "docs/credits.md",
+        "blog/2026-05-10-docs-launch.md (changelog)"
+      ],
+      "infrastructure": [
+        "docusaurus.config.ts (full SEO + JSON-LD + branding)",
+        "src/css/custom.css (Emerald → Sky brand)",
+        "src/pages/index.tsx (branded home)",
+        "sidebars.ts (Diátaxis structure)",
+        "static/img/{logo.svg, favicon.svg, og-image.svg}",
+        "static/{robots.txt, llms.txt, ai.txt, humans.txt, CNAME}",
+        "static/.well-known/security.txt",
+        "firebase.json + .firebaserc",
+        "_planning/{README.md, scope.md, plan.md, tracker.json}",
+        "README.md, LICENSE (MIT), .gitignore",
+        "blog/{authors.yml, tags.yml}"
+      ],
+      "skillsInvoked": [
+        "documentation-writer",
+        "writing-plans",
+        "ai-seo",
+        "copywriting",
+        "firebase-hosting-basics",
+        "content-strategy"
+      ]
+    },
+    {
+      "id": "batch-1",
+      "title": "Getting Started + Core Concepts (11 pages)",
+      "status": "pending",
+      "estimatedPages": 11,
+      "estimatedWords": 9300,
+      "skillsRequired": ["documentation-writer", "copywriting", "ai-seo"]
+    },
+    {
+      "id": "batch-2",
+      "title": "Tests & Practice (9 pages)",
+      "status": "pending",
+      "estimatedPages": 9,
+      "estimatedWords": 7800,
+      "skillsRequired": ["documentation-writer", "copywriting"]
+    },
+    {
+      "id": "batch-3",
+      "title": "Community Module (14 pages)",
+      "status": "pending",
+      "estimatedPages": 14,
+      "estimatedWords": 12700,
+      "skillsRequired": ["documentation-writer", "copywriting"]
+    },
+    {
+      "id": "batch-4",
+      "title": "Discovery + Engagement (10 pages)",
+      "status": "pending",
+      "estimatedPages": 10,
+      "estimatedWords": 7800,
+      "skillsRequired": ["documentation-writer", "copywriting"]
+    },
+    {
+      "id": "batch-5",
+      "title": "Account + Institutes + Mobile + Privacy (13 pages)",
+      "status": "pending",
+      "estimatedPages": 13,
+      "estimatedWords": 11900,
+      "skillsRequired": ["documentation-writer", "copywriting"]
+    },
+    {
+      "id": "batch-6",
+      "title": "Developer / Contributor section (12 pages)",
+      "status": "pending",
+      "estimatedPages": 12,
+      "estimatedWords": 12100,
+      "skillsRequired": [
+        "documentation-writer",
+        "react-best-practices",
+        "firebase-firestore-standard",
+        "capacitor-best-practices"
+      ]
+    },
+    {
+      "id": "batch-7",
+      "title": "Polish + SEO sweep + Firebase deploy + GSC submission",
+      "status": "pending",
+      "skillsRequired": ["ai-seo", "seo", "firebase-hosting-basics"]
+    }
+  ],
+  "humanOnlySteps": [
+    "Create public GitHub repo aoneahsan/imtehanhub-docs and grant push access.",
+    "Confirm or create Firebase project for hosting.",
+    "Add DNS CNAME from imtehanhub-docs.aoneahsan.com → Firebase Hosting target.",
+    "Verify ownership in Google Search Console (TXT or HTML upload).",
+    "Verify ownership in Bing Webmaster Tools.",
+    "Verify ownership in Yandex Webmaster (HTML file).",
+    "Issue IndexNow API key and place key file in /static/.",
+    "Add docs link to main imtehanhub app footer."
+  ],
+  "links": {
+    "scope": "_planning/scope.md",
+    "plan": "_planning/plan.md",
+    "readme": "_planning/README.md",
+    "rootReadme": "README.md"
+  }
+}
