@@ -6,10 +6,10 @@
   "createdOn": "2026-05-10",
   "lastUpdated": "2026-05-10",
   "status": "in-progress",
-  "currentBatch": "batch-1",
-  "nextBatch": "batch-2",
+  "currentBatch": "batch-2",
+  "nextBatch": "batch-3",
   "totalBatches": 8,
-  "completedBatches": 2,
+  "completedBatches": 3,
   "lastSuccessfulRun": null,
   "nextEligibleRun": null,
   "cooldownDays": 7,
@@ -71,10 +71,22 @@
     {
       "id": "batch-2",
       "title": "Tests & Practice (9 pages)",
-      "status": "pending",
-      "estimatedPages": 9,
-      "estimatedWords": 7800,
-      "skillsRequired": ["documentation-writer", "copywriting"]
+      "status": "complete",
+      "completedOn": "2026-05-10",
+      "pages": [
+        "docs/tests/configure.md",
+        "docs/tests/topic-filters.md",
+        "docs/tests/source-picker.md",
+        "docs/tests/during-test.md",
+        "docs/tests/submit-and-result.md",
+        "docs/tests/review-mode.md",
+        "docs/tests/bookmarks.md",
+        "docs/tests/history.md",
+        "docs/tests/streaks.md"
+      ],
+      "wordCountApprox": 11500,
+      "skillsInvoked": ["documentation-writer", "copywriting"],
+      "sidebarUpdates": "Added Tests & Practice category with 9 items"
     },
     {
       "id": "batch-3",

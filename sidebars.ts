@@ -50,6 +50,28 @@ const sidebars: SidebarsConfig = {
         'concepts/achievements',
       ],
     },
+    {
+      type: 'category',
+      label: 'Tests & Practice',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        slug: '/tests',
+        description:
+          'Configure a test, take it, read the result, review past tests, and keep your streak alive.',
+      },
+      items: [
+        'tests/configure',
+        'tests/topic-filters',
+        'tests/source-picker',
+        'tests/during-test',
+        'tests/submit-and-result',
+        'tests/review-mode',
+        'tests/bookmarks',
+        'tests/history',
+        'tests/streaks',
+      ],
+    },
     {type: 'doc', id: 'credits', label: 'Credits'},
   ],
 };
