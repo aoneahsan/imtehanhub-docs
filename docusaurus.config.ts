@@ -209,6 +209,12 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'developersSidebar',
+          position: 'left',
+          label: 'Developer',
+        },
         {to: '/changelog', label: 'Changelog', position: 'left'},
         {
           href: APP_URL,

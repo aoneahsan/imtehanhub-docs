@@ -6,10 +6,10 @@
   "createdOn": "2026-05-10",
   "lastUpdated": "2026-05-11",
   "status": "in-progress",
-  "currentBatch": "batch-5",
-  "nextBatch": "batch-6",
+  "currentBatch": "batch-6",
+  "nextBatch": "batch-7",
   "totalBatches": 8,
-  "completedBatches": 6,
+  "completedBatches": 7,
   "lastSuccessfulRun": null,
   "nextEligibleRun": null,
   "cooldownDays": 7,
@@ -162,15 +162,34 @@
     {
       "id": "batch-6",
       "title": "Developer / Contributor section (12 pages)",
-      "status": "pending",
-      "estimatedPages": 12,
-      "estimatedWords": 12100,
-      "skillsRequired": [
+      "status": "complete",
+      "completedOn": "2026-05-11",
+      "pages": [
+        "docs/developers/overview.md",
+        "docs/developers/architecture/layers.md",
+        "docs/developers/architecture/routing.md",
+        "docs/developers/architecture/state.md",
+        "docs/developers/architecture/forms.md",
+        "docs/developers/architecture/storage.md",
+        "docs/developers/architecture/theme.md",
+        "docs/developers/architecture/analytics-errors.md",
+        "docs/developers/pipeline/overview.md",
+        "docs/developers/pipeline/ocr.md",
+        "docs/developers/seo/postbuild.md",
+        "docs/developers/contributing/community.md"
+      ],
+      "wordCountApprox": 16200,
+      "skillsInvoked": [
         "documentation-writer",
         "react-best-practices",
         "firebase-firestore-standard",
-        "capacitor-best-practices"
-      ]
+        "capacitor-best-practices",
+        "react-state-management",
+        "react-hook-form",
+        "ai-seo",
+        "copywriting"
+      ],
+      "sidebarUpdates": "Added second sidebar 'developersSidebar' with 5 categories (Overview, Architecture, Data Pipeline, SEO, Contributing) and a navbar 'Developer' entry pointing at it. The architecture section is open-by-default; pipeline/seo/contributing collapsed."
     },
     {
       "id": "batch-7",

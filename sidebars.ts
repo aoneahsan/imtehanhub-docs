@@ -11,6 +11,83 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  * docSidebar resolver fails on the home page render.
  */
 const sidebars: SidebarsConfig = {
+  developersSidebar: [
+    {
+      type: 'category',
+      label: 'Developer Overview',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        slug: '/developers',
+        description:
+          'Open-source-style technical docs for ImtehanHub — stack philosophy, layer contracts, routing, state, forms, storage, theme architecture, data pipeline, postbuild SEO, and how to contribute.',
+      },
+      items: ['developers/overview'],
+    },
+    {
+      type: 'category',
+      label: 'Architecture',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        slug: '/developers/architecture',
+        description:
+          'The six fixed layers (types → repos → services → stores → hooks → components), routing model, state management, forms, storage, theme, and analytics + errors fan-out.',
+      },
+      items: [
+        'developers/architecture/layers',
+        'developers/architecture/routing',
+        'developers/architecture/state',
+        'developers/architecture/forms',
+        'developers/architecture/storage',
+        'developers/architecture/theme',
+        'developers/architecture/analytics-errors',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Data Pipeline',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/developers/pipeline',
+        description:
+          'How official MCQ / short / long question content is sourced from free Pakistani exam-prep sites, transformed, validated, and seeded into Firestore.',
+      },
+      items: [
+        'developers/pipeline/overview',
+        'developers/pipeline/ocr',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'SEO',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/developers/seo',
+        description:
+          'How ImtehanHub generates 660+ static HTMLs per build with route-specific JSON-LD, sitemap, llms.txt, ai.txt, and per-page-uniqueness floor content — so AI crawlers see real content.',
+      },
+      items: [
+        'developers/seo/postbuild',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Contributing',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/developers/contributing',
+        description:
+          'Three contribution paths — documentation PRs (this repo, public), in-app community module submissions, and direct issue reports via email.',
+      },
+      items: [
+        'developers/contributing/community',
+      ],
+    },
+  ],
   docsSidebar: [
     {
       type: 'category',
