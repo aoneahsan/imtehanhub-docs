@@ -122,6 +122,71 @@ const sidebars: SidebarsConfig = {
         'community/promote-to-official',
       ],
     },
+    {
+      type: 'category',
+      label: 'Account & Settings',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/account',
+        description:
+          'Profile, theme customizer, language toggle, billing tiers, referrals, and self-service data deletion — every personal account surface in one place.',
+      },
+      items: [
+        'account/profile',
+        'account/theme',
+        'account/language',
+        'account/billing',
+        'account/referrals',
+        'account/data-deletion',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Institutes',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/institutes',
+        description:
+          'Schools, academies, and tuition centres can onboard a roster of students under one manager — invite, manage, and read aggregate progress without crossing privacy lines.',
+      },
+      items: [
+        'institutes/overview',
+        'institutes/manage',
+        'institutes/progress',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Mobile App',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/mobile',
+        description:
+          'The Android app gives you native sign-in, push notifications, faster splash, and offline tests built for Pakistani load-shedding reality.',
+      },
+      items: [
+        'mobile/install',
+        'mobile/offline',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Privacy & Data',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/privacy',
+        description:
+          'A plain-language inventory of every piece of data ImtehanHub stores about you — and the technical reasoning behind the CNIC hash + denylist design.',
+      },
+      items: [
+        'privacy/overview',
+        'privacy/cnic',
+      ],
+    },
     {type: 'doc', id: 'credits', label: 'Credits'},
   ],
 };
