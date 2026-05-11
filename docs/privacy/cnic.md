@@ -3,7 +3,7 @@ id: cnic
 title: CNIC handling — hashing, denylist, why this design
 sidebar_label: CNIC handling
 sidebar_position: 2
-description: ImtehanHub stores only a SHA256 hash of your CNIC number plus the last 4 digits and a Drive file ID — never the full number or the image bytes. This page explains the threat model, the design choices, and what happens if you are banned.
+description: We store only a SHA256 hash of your CNIC + last 4 digits + a Drive file ID — never the full number or the image bytes. Threat model, denylist, ban-evasion design.
 keywords:
   - CNIC privacy ImtehanHub
   - SHA256 hash CNIC

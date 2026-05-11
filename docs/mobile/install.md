@@ -3,7 +3,7 @@ id: install
 title: Installing the Android app
 sidebar_label: Install Android app
 sidebar_position: 1
-description: ImtehanHub ships an Android app built with Capacitor that wraps the web app with native performance, offline support, push notifications, and shorter splash. Install from Google Play or sideload the APK from the website.
+description: The Android app wraps the web app with native splash, push notifications, faster sign-in, and offline tests. Install from Google Play or sideload the APK.
 keywords:
   - install ImtehanHub Android
   - Pakistani exam app Android

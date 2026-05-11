@@ -3,7 +3,7 @@ id: language
 title: Language toggle — English ↔ Urdu with full RTL
 sidebar_label: Language toggle
 sidebar_position: 3
-description: Switch ImtehanHub between English and Urdu in one click. The language toggle in the app header flips every container label (Class / Subject / Chapter), navigation, buttons, and the document direction to RTL when Urdu is active.
+description: One-click EN ↔ UR switch in the app header — flips every label, button, and the document direction to RTL when Urdu is active. Choice persists across devices.
 keywords:
   - ImtehanHub Urdu mode
   - English Urdu bilingual app

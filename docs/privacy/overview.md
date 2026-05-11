@@ -3,7 +3,7 @@ id: overview
 title: Privacy overview — what we store and where
 sidebar_label: Privacy overview
 sidebar_position: 1
-description: A plain-language inventory of every piece of data ImtehanHub stores about you, where it lives, who can read it, and how long it stays. Designed around data minimisation — we store only what the product needs, nothing else.
+description: Plain-language inventory of every piece of data ImtehanHub stores — what, where, who reads it, and how long it stays. Built around data minimisation.
 keywords:
   - ImtehanHub privacy policy
   - student data Pakistan

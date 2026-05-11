@@ -3,7 +3,7 @@ id: layers
 title: Layer contracts — types, repos, services, stores, hooks, components
 sidebar_label: Layer contracts
 sidebar_position: 1
-description: ImtehanHub's read-and-write flow goes through fixed layers in fixed order — types define shape, repositories read/write Firestore, services hold business logic, stores hold client state, hooks expose async data, components render. This page walks one full flow across every layer.
+description: ImtehanHub's read-write flow uses six fixed layers — types, repositories, services, stores, hooks, components — walked end-to-end via "submit a test."
 keywords:
   - ImtehanHub architecture layers
   - BaseRepository Firestore pattern

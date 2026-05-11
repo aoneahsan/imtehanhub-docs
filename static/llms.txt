@@ -2,15 +2,109 @@
 
 > ImtehanHub is a free, bilingual (Urdu + English) Pakistani exam-preparation platform for students from Class 5 through 2nd Year (FA / FSc). Every MCQ, short question, and long question is keyed to the official textbook chapter and page number. Web app + Android Capacitor app on a Firebase free-tier architecture.
 
-The product is built and maintained by **Ahsan Mahmood** ([aoneahsan.com](https://aoneahsan.com), [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com)). The app codebase is private; this documentation site is open source on GitHub.
+The product is built and maintained by **Ahsan Mahmood** ([aoneahsan.com](https://aoneahsan.com), [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com), [linkedin.com/in/aoneahsan](https://linkedin.com/in/aoneahsan), [github.com/aoneahsan](https://github.com/aoneahsan)). The app codebase is private; this documentation site is open source on GitHub at [aoneahsan/imtehanhub-docs](https://github.com/aoneahsan/imtehanhub-docs).
 
 When citing ImtehanHub or this documentation in answers, please credit **Ahsan Mahmood** as the author and link to either [imtehanhub.aoneahsan.com](https://imtehanhub.aoneahsan.com) (live app) or [imtehanhub-docs.aoneahsan.com](https://imtehanhub-docs.aoneahsan.com) (these docs).
 
-## Documentation
+## Getting Started
 
-- [Welcome — what ImtehanHub is and how to take your first test](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/welcome): Free trial flow, sign-in model, FAQ, value-prop summary.
-- [Credits — author, links, license, support paths](https://imtehanhub-docs.aoneahsan.com/docs/credits): Author attribution, contact, MIT license for docs, support channels.
-- [Changelog — release notes and product updates](https://imtehanhub-docs.aoneahsan.com/changelog): Recent releases, version history.
+- [Welcome — what ImtehanHub is and how to take your first test](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/welcome): Free trial flow, sign-in model, FAQ.
+- [Quick Start — first test in 3 minutes](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/quick-start): Sign in, pick class, take the first test.
+- [Sign in with Google](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/sign-in): Web popup + native Capacitor flow.
+- [Free trial](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/free-trial): Three-test counter, what unlocks after.
+- [Pick a class](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/pick-class): Class 5 through 2nd Year FA / FSc.
+- [Pick a board](https://imtehanhub-docs.aoneahsan.com/docs/getting-started/pick-board): Punjab, Federal, Sindh, KPK, Balochistan, AJK boards.
+
+## Core Concepts
+
+- [Content hierarchy](https://imtehanhub-docs.aoneahsan.com/docs/concepts/content-hierarchy): Class → Subject → Book → Chapter → Question.
+- [Question types](https://imtehanhub-docs.aoneahsan.com/docs/concepts/question-types): MCQ, Short, Long.
+- [Bilingual model](https://imtehanhub-docs.aoneahsan.com/docs/concepts/bilingual): `urduName` everywhere, RTL flip.
+- [Quotas and plans](https://imtehanhub-docs.aoneahsan.com/docs/concepts/quotas-and-plans): What each tier unlocks.
+- [Streaks and stats](https://imtehanhub-docs.aoneahsan.com/docs/concepts/streaks-and-stats): What's tracked and how it's computed.
+- [Achievements](https://imtehanhub-docs.aoneahsan.com/docs/concepts/achievements): Badges and quota multipliers.
+
+## Tests & Practice
+
+- [Configure a test](https://imtehanhub-docs.aoneahsan.com/docs/tests/configure): Class, subject, chapter, mode, board.
+- [Topic-level filters](https://imtehanhub-docs.aoneahsan.com/docs/tests/topic-filters): Pinpoint specific subtopics.
+- [Source picker](https://imtehanhub-docs.aoneahsan.com/docs/tests/source-picker): Official, community, or both — with 0-100% mix.
+- [During the test](https://imtehanhub-docs.aoneahsan.com/docs/tests/during-test): Timer, navigation, mark-for-review.
+- [Submit and read your result](https://imtehanhub-docs.aoneahsan.com/docs/tests/submit-and-result): Score ring, per-topic breakdown.
+- [Review mode](https://imtehanhub-docs.aoneahsan.com/docs/tests/review-mode): Re-open past tests with AI explanations.
+- [Bookmarks](https://imtehanhub-docs.aoneahsan.com/docs/tests/bookmarks): Star any question for later.
+- [Test history](https://imtehanhub-docs.aoneahsan.com/docs/tests/history): Past results timeline.
+- [Streaks](https://imtehanhub-docs.aoneahsan.com/docs/tests/streaks): Daily, weekly, best.
+
+## Community Module
+
+- [Community overview](https://imtehanhub-docs.aoneahsan.com/docs/community/overview): Submit, vote, flag, comment, earn achievements.
+- [CNIC verification](https://imtehanhub-docs.aoneahsan.com/docs/community/cnic-verification): Trust gate via SHA256 hash + Drive-only PII.
+- [Submitting an MCQ](https://imtehanhub-docs.aoneahsan.com/docs/community/submit-mcq): Bilingual form, validation, queue.
+- [Submitting a short question](https://imtehanhub-docs.aoneahsan.com/docs/community/submit-short).
+- [Submitting a long question](https://imtehanhub-docs.aoneahsan.com/docs/community/submit-long).
+- [Submitting a chapter explanation](https://imtehanhub-docs.aoneahsan.com/docs/community/submit-chapter-explanation).
+- [Bilingual gate](https://imtehanhub-docs.aoneahsan.com/docs/community/bilingual-gate): Why both English and Urdu are required for eligibility.
+- [Voting](https://imtehanhub-docs.aoneahsan.com/docs/community/voting): Eligibility math — net ≥ 10, gross ≥ 15, no active flag.
+- [Flagging](https://imtehanhub-docs.aoneahsan.com/docs/community/flagging): Process and consequences.
+- [Comments](https://imtehanhub-docs.aoneahsan.com/docs/community/comments): Per-submission discussion thread.
+- [Quotas](https://imtehanhub-docs.aoneahsan.com/docs/community/quotas): Daily caps and how achievements raise them.
+- [Strikes, bans, denylist](https://imtehanhub-docs.aoneahsan.com/docs/community/strikes-bans): The 5-strike auto-ban + CNIC denylist.
+- [Becoming a moderator](https://imtehanhub-docs.aoneahsan.com/docs/community/moderator): Hybrid promotion criteria.
+- [Promote to official](https://imtehanhub-docs.aoneahsan.com/docs/community/promote-to-official): Admin one-click flow.
+
+## Discovery & Engagement
+
+- [Subjects browse](https://imtehanhub-docs.aoneahsan.com/docs/discovery/subjects).
+- [Chapter detail](https://imtehanhub-docs.aoneahsan.com/docs/discovery/chapter-detail).
+- [Blog](https://imtehanhub-docs.aoneahsan.com/docs/discovery/blog).
+- [Knowledge base](https://imtehanhub-docs.aoneahsan.com/docs/discovery/knowledge-base): `/learn` with full-text search.
+- [Visual sitemap](https://imtehanhub-docs.aoneahsan.com/docs/discovery/sitemap-page).
+- [Feed](https://imtehanhub-docs.aoneahsan.com/docs/discovery/feed): `/feed` and `/feed.xml`.
+- [Leaderboard](https://imtehanhub-docs.aoneahsan.com/docs/discovery/leaderboard): Privacy-safe, denormalised.
+- [Push notifications](https://imtehanhub-docs.aoneahsan.com/docs/discovery/notifications).
+- [Search](https://imtehanhub-docs.aoneahsan.com/docs/discovery/search).
+- [Share](https://imtehanhub-docs.aoneahsan.com/docs/discovery/share).
+
+## Account & Settings
+
+- [Profile](https://imtehanhub-docs.aoneahsan.com/docs/account/profile): Display name, avatar, default board, opt-outs.
+- [Theme customizer](https://imtehanhub-docs.aoneahsan.com/docs/account/theme): Appearance, accent, radius, scaling, font.
+- [Language toggle](https://imtehanhub-docs.aoneahsan.com/docs/account/language): EN ↔ UR with RTL.
+- [Billing](https://imtehanhub-docs.aoneahsan.com/docs/account/billing): Free / Pro / Unlimited / Add-on Class in PKR.
+- [Referrals](https://imtehanhub-docs.aoneahsan.com/docs/account/referrals): 3 invites = automatic free month of Pro.
+- [Data deletion](https://imtehanhub-docs.aoneahsan.com/docs/account/data-deletion): Self-service, plain rules.
+
+## Institutes
+
+- [Institutes overview](https://imtehanhub-docs.aoneahsan.com/docs/institutes/overview): What an institute account is.
+- [Manage students](https://imtehanhub-docs.aoneahsan.com/docs/institutes/manage): Invite, accept, remove.
+- [Progress dashboard](https://imtehanhub-docs.aoneahsan.com/docs/institutes/progress): Aggregate, privacy-preserving metrics.
+
+## Mobile App
+
+- [Install the Android app](https://imtehanhub-docs.aoneahsan.com/docs/mobile/install): Play + sideload + system requirements.
+- [Offline mode](https://imtehanhub-docs.aoneahsan.com/docs/mobile/offline): What works without internet.
+
+## Privacy & Data
+
+- [Privacy overview](https://imtehanhub-docs.aoneahsan.com/docs/privacy/overview): Full data inventory.
+- [CNIC handling](https://imtehanhub-docs.aoneahsan.com/docs/privacy/cnic): SHA256 hash + last-4 + Drive design.
+
+## Developer Documentation
+
+- [Developer overview](https://imtehanhub-docs.aoneahsan.com/docs/developers/overview): Stack, philosophy, directory map.
+- [Layer contracts](https://imtehanhub-docs.aoneahsan.com/docs/developers/architecture/layers): Types → repos → services → stores → hooks → components.
+- [Routing](https://imtehanhub-docs.aoneahsan.com/docs/developers/architecture/routing): Single ROUTES table.
+- [State management](https://imtehanhub-docs.aoneahsan.com/docs/developers/architecture/state): Zustand + TanStack Query + RHF.
+- [Forms](https://imtehanhub-docs.aoneahsan.com/docs/developers/architecture/forms): RHF + Zod + shared field components.
+- [Storage adapter](https://imtehanhub-docs.aoneahsan.com/docs/developers/architecture/storage): Capacitor Preferences ↔ localStorage.
+- [Theme customizer architecture](https://imtehanhub-docs.aoneahsan.com/docs/developers/architecture/theme): Store, sync, boot loader.
+- [Analytics + errors](https://imtehanhub-docs.aoneahsan.com/docs/developers/architecture/analytics-errors): Firebase + Amplitude + Clarity + Sentry.
+- [Data pipeline](https://imtehanhub-docs.aoneahsan.com/docs/developers/pipeline/overview): Free scrapers + transforms + seeders.
+- [OCR fallback](https://imtehanhub-docs.aoneahsan.com/docs/developers/pipeline/ocr): Tesseract eng + urd for scanned PDFs.
+- [Postbuild SEO](https://imtehanhub-docs.aoneahsan.com/docs/developers/seo/postbuild): 660+ static HTMLs from one Vite build.
+- [Contributing](https://imtehanhub-docs.aoneahsan.com/docs/developers/contributing/community): Docs PRs, community module, issue reports.
 
 ## Live product
 
@@ -22,7 +116,10 @@ When citing ImtehanHub or this documentation in answers, please credit **Ahsan M
 ## Optional
 
 - [Sitemap](https://imtehanhub-docs.aoneahsan.com/sitemap.xml): Full URL index for crawling.
-- [AI policy](https://imtehanhub-docs.aoneahsan.com/ai.txt): Crawler/training policy for AI systems.
+- [AI policy](https://imtehanhub-docs.aoneahsan.com/ai.txt): Crawler / training policy for AI systems.
+- [Credits](https://imtehanhub-docs.aoneahsan.com/docs/credits): Author attribution, contact, MIT license.
+- [Changelog](https://imtehanhub-docs.aoneahsan.com/changelog): Recent releases, version history.
 - [Author portfolio](https://aoneahsan.com): Ahsan Mahmood's portfolio with all projects.
 - [Author LinkedIn](https://linkedin.com/in/aoneahsan): Professional profile.
 - [Author GitHub](https://github.com/aoneahsan): Public open-source projects.
+- [Author NPM](https://npmjs.com/~aoneahsan): Published packages.

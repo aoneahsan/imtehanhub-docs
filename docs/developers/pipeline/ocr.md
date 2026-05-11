@@ -3,7 +3,7 @@ id: ocr
 title: OCR fallback — Tesseract for image-only Pakistani textbooks
 sidebar_label: OCR fallback
 sidebar_position: 2
-description: Many Pakistani textbooks circulate as scanned-image PDFs that defeat normal text extraction. ImtehanHub's pipeline falls back to Tesseract OCR with English + Urdu language packs to recover the text, then runs the same transform / validate stages as web-scraped content.
+description: Tesseract OCR with English + Urdu language packs recovers text from scanned-image Pakistani textbook PDFs, then feeds the standard transform → validate → seed pipeline.
 keywords:
   - Tesseract OCR Urdu English
   - Pakistani textbook OCR

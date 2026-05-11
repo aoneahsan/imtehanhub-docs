@@ -3,7 +3,7 @@ id: offline
 title: Offline mode — what works without internet
 sidebar_label: Offline mode
 sidebar_position: 2
-description: ImtehanHub Android caches your most-used chapters locally so you can take tests, read chapter content, and review bookmarks without internet. Submissions queue and sync when you reconnect. Designed for Pakistani 3G/4G dropouts and load-shedding scenarios.
+description: Take tests, read cached chapters, and review bookmarks without internet. Submissions queue locally and replay on reconnect — built for load-shedding reality.
 keywords:
   - ImtehanHub offline mode
   - exam app offline Pakistan

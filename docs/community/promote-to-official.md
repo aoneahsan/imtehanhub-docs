@@ -3,7 +3,7 @@ id: promote-to-official
 title: Promote to official — the admin flow
 sidebar_label: Promote to official
 sidebar_position: 14
-description: An admin-only one-click flow that takes an eligible community submission, copies it into the official questions collection, and makes it default-tested for everyone — regardless of source picker setting.
+description: Admin one-click flow promotes an eligible community submission into the official questions collection — tested for everyone regardless of source-picker setting.
 keywords:
   - promote to official
   - community to official

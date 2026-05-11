@@ -3,7 +3,7 @@ id: referrals
 title: Referrals — share your code, 3 invites = auto-Pro
 sidebar_label: Referrals
 sidebar_position: 5
-description: Every ImtehanHub account gets a 6-character referral code. Share it with friends. When three friends sign up using your code, you get one free month of Pro automatically — no payment required, no manual approval.
+description: Every account ships with a 6-character referral code. Three successful signups using your code = one automatic free month of Pro. No forms, no approval.
 keywords:
   - ImtehanHub referral code
   - free Pro Pakistan exam app

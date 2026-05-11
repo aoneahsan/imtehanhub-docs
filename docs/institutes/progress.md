@@ -3,7 +3,7 @@ id: progress
 title: Progress dashboard — reading aggregate student progress
 sidebar_label: Progress dashboard
 sidebar_position: 3
-description: The institute progress dashboard at /app/institute/progress shows aggregate test counts, average accuracy, and per-class breakdown across your roster — all without exposing individual student answers or detailed history. Privacy-preserving by design.
+description: Aggregate test counts, accuracy, per-class breakdown across your roster — no individual student answers or detailed history exposed. Privacy-preserving by design.
 keywords:
   - institute progress dashboard
   - school student progress

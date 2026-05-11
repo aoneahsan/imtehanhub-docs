@@ -5,14 +5,24 @@
   "owner": "Ahsan Mahmood <aoneahsan@gmail.com>",
   "createdOn": "2026-05-10",
   "lastUpdated": "2026-05-11",
-  "status": "in-progress",
-  "currentBatch": "batch-6",
-  "nextBatch": "batch-7",
+  "status": "code-complete-awaiting-deploy",
+  "currentBatch": "batch-7",
+  "nextBatch": null,
   "totalBatches": 8,
-  "completedBatches": 7,
-  "lastSuccessfulRun": null,
-  "nextEligibleRun": null,
+  "completedBatches": 8,
+  "lastSuccessfulRun": "2026-05-11",
+  "nextEligibleRun": "2026-05-18",
   "cooldownDays": 7,
+  "deploymentChecklist": "_planning/DEPLOYMENT-CHECKLIST.md",
+  "humanOnlyStepsRemaining": [
+    "Create public GitHub repo aoneahsan/imtehanhub-docs and push",
+    "Confirm/create Firebase project + enable Hosting",
+    "First Firebase deploy",
+    "Add DNS records for imtehanhub-docs.aoneahsan.com",
+    "GSC + Bing + Yandex verification and sitemap submission",
+    "Issue IndexNow API key and place key file",
+    "Deploy main imtehanhub app to surface the new footer Documentation link"
+  ],
   "batches": [
     {
       "id": "batch-0",
@@ -193,9 +203,29 @@
     },
     {
       "id": "batch-7",
-      "title": "Polish + SEO sweep + Firebase deploy + GSC submission",
-      "status": "pending",
-      "skillsRequired": ["ai-seo", "seo", "firebase-hosting-basics"]
+      "title": "Polish + SEO sweep + Firebase deploy prep",
+      "status": "complete",
+      "completedOn": "2026-05-11",
+      "actions": [
+        "Audited title/description lengths across 65 doc pages (66 issues found)",
+        "Tightened 24 worst-offender meta descriptions (was >200 chars, now <=160) covering account, institutes, mobile, privacy, community, developers, discovery sections",
+        "Refreshed static/llms.txt to include all 7 new doc sections (account, institutes, mobile, privacy, developer architecture, pipeline, SEO, contributing) — full URL index for AI crawlers",
+        "Refreshed static/ai.txt Last Updated to 2026-05-11",
+        "Generated static/img/og-image.png (1200x630) from og-image.svg via rsvg-convert — needed for social-share cards (Facebook, LinkedIn, Slack, X)",
+        "Added 'Documentation ↗' footer link in main imtehanhub app (src/components/layout/Footer.tsx, Connect column, same external-link pattern as Support)",
+        "Created _planning/DEPLOYMENT-CHECKLIST.md — 11-step human-only operations runbook (GitHub repo, Firebase deploy, DNS, GSC/Bing/Yandex, IndexNow, third-party presence, verification)",
+        "Tracker bumped to status: code-complete-awaiting-deploy with lastSuccessfulRun 2026-05-11 and nextEligibleRun 2026-05-18",
+        "Final yarn build clean (onBrokenLinks: throw passed)"
+      ],
+      "skillsInvoked": [
+        "ai-seo",
+        "seo-audit",
+        "firebase-hosting-basics",
+        "copywriting",
+        "web-design-guidelines",
+        "simplify",
+        "documentation-writer"
+      ]
     }
   ],
   "humanOnlySteps": [

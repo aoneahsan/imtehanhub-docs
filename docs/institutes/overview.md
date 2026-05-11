@@ -3,7 +3,7 @@ id: overview
 title: Institutes overview — what an institute account is
 sidebar_label: Overview
 sidebar_position: 1
-description: An institute account on ImtehanHub lets a school, academy, or tuition centre onboard students under one manager. Invite students by email, watch a roster grow as they accept, and receive volume discounts that scale with student count.
+description: Institute accounts let schools, academies, and tuition centres onboard students under one manager — invite by email, grow a roster, get volume-based discounts.
 keywords:
   - ImtehanHub for schools
   - academy account Pakistan

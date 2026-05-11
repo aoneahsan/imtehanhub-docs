@@ -3,7 +3,7 @@ id: routing
 title: Routing — one table-of-routes, no magic strings
 sidebar_label: Routing
 sidebar_position: 2
-description: ImtehanHub uses React Router 7 with all routes declared in src/config/routes.ts as typed constants. No magic strings in components, no decentralised route definitions, and every back-button target is explicit.
+description: React Router 7 with every path declared in src/config/routes.ts as a typed constant. No magic strings, one rename point, explicit back-button targets.
 keywords:
   - React Router 7 best practice
   - centralised routes constants

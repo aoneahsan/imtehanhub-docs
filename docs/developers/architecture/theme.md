@@ -3,7 +3,7 @@ id: theme
 title: Theme customizer architecture — store, sync, boot loader
 sidebar_label: Theme architecture
 sidebar_position: 6
-description: ImtehanHub's theme customizer is a Radix UI theme surface backed by a Zustand store, persisted through the Capacitor storage adapter, synced to Firestore on sign-in, and gated behind a boot loader that prevents the dark-mode flash.
+description: Radix theme surface + Zustand store + Capacitor storage adapter + Firestore sync on sign-in + boot loader that prevents the wrong-theme flash on cold start.
 keywords:
   - Radix UI theme architecture
   - Zustand theme store

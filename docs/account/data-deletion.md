@@ -3,7 +3,7 @@ id: data-deletion
 title: Data deletion — self-service account deletion
 sidebar_label: Data deletion
 sidebar_position: 6
-description: ImtehanHub supports full self-service account deletion at /app/profile. Click delete, type your email to confirm, and your account, history, tests, bookmarks, leaderboard entry, and CNIC verification are all removed within minutes. No customer-service ticket required.
+description: Self-service account deletion at /app/profile — confirm by typing your email; user doc, tests, bookmarks, leaderboard, and CNIC verification purge within minutes.
 keywords:
   - delete ImtehanHub account
   - data deletion student app

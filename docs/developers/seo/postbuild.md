@@ -3,7 +3,7 @@ id: postbuild
 title: postbuild-seo.mjs — 660+ static HTMLs, JSON-LD, sitemap
 sidebar_label: Postbuild SEO
 sidebar_position: 1
-description: After Vite builds the SPA, postbuild-seo.mjs clones dist/index.html into one file per known route with route-specific title, description, canonical, OG, Twitter, JSON-LD, and a noscript body — so AI crawlers that don't execute JavaScript still see the real content.
+description: postbuild-seo.mjs clones dist/index.html into 660+ per-route static HTMLs with route-specific JSON-LD and noscript bodies so AI crawlers see real content.
 keywords:
   - SPA prerendering static HTML
   - postbuild SEO React

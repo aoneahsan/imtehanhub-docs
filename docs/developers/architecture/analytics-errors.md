@@ -3,7 +3,7 @@ id: analytics-errors
 title: Analytics + errors — Firebase, Amplitude, Clarity, Sentry
 sidebar_label: Analytics & errors
 sidebar_position: 7
-description: Every meaningful user action in ImtehanHub fans out to Firebase Analytics, Amplitude, and Microsoft Clarity. Errors go to Sentry with PII scrubbed. All four are configured to fail-open — missing env keys never block the app.
+description: Every tracked action fans out to Firebase Analytics, Amplitude, and Microsoft Clarity. Errors go to Sentry with PII scrubbed. All four fail-open on missing env keys.
 keywords:
   - Firebase Amplitude Clarity Sentry
   - analytics fan-out React

@@ -3,7 +3,7 @@ id: flagging
 title: Flagging — process and consequences
 sidebar_label: Flagging
 sidebar_position: 9
-description: Flag a community submission you believe is wrong, off-topic, or low-quality. Flags pause eligibility and go to a moderator queue. Confirmed flags strike the contributor; rejected flags strike the flagger.
+description: Flag submissions you believe are wrong, off-topic, or low-quality. Confirmed flags strike the contributor; rejected flags strike the flagger. Pauses eligibility.
 keywords:
   - flag community submission
   - moderator queue Pakistan

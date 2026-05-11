@@ -3,7 +3,7 @@ id: storage
 title: Storage adapter — Capacitor Preferences ↔ localStorage
 sidebar_label: Storage adapter
 sidebar_position: 5
-description: ImtehanHub abstracts persistent client storage behind a single adapter that routes to @capacitor/preferences on Android and localStorage on the web. Both Zustand stores and ad-hoc reads go through it, so the same code persists data on both platforms.
+description: One adapter routes persistent storage to @capacitor/preferences on Android and localStorage on the web. Zustand stores and ad-hoc reads share one API.
 keywords:
   - Capacitor Preferences storage
   - Zustand storage adapter

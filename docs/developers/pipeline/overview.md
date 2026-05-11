@@ -3,7 +3,7 @@ id: overview
 title: Data pipeline — free scrapers, transforms, validation, seeding
 sidebar_label: Pipeline overview
 sidebar_position: 1
-description: ImtehanHub's official content is sourced from free Pakistani exam-prep sites (ilmkidunya.com, gotest.pk), transformed and validated by Node.js scripts, then seeded into Firestore. Zero paid APIs, zero LLM calls in the official pipeline.
+description: Free Pakistani exam-prep sites scraped, transformed, validated, and seeded to Firestore by Node.js scripts. Zero paid APIs, zero LLM calls in the official pipeline.
 keywords:
   - free Pakistani exam content
   - web scraper Node.js

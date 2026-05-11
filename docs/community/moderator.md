@@ -3,7 +3,7 @@ id: moderator
 title: Becoming a moderator (hybrid promotion)
 sidebar_label: Become a moderator
 sidebar_position: 13
-description: Promoted community moderators help admins resolve flag queues. Promotion is hybrid — the system flags eligible candidates based on contribution and accuracy history, and an admin one-click promotes from the candidate list.
+description: Community moderators resolve flag queues. Hybrid promotion — system flags eligible candidates from contribution + accuracy history, admin one-clicks to promote.
 keywords:
   - community moderator promotion
   - peer moderation Pakistan

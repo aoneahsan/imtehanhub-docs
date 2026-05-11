@@ -3,7 +3,7 @@ id: overview
 title: Developer overview — stack, philosophy, directory map
 sidebar_label: Overview
 sidebar_position: 1
-description: ImtehanHub is a React 19 + TypeScript strict + Vite + Tailwind + Radix UI + Zustand + TanStack Query + RHF + Zod + Firebase free-tier + Capacitor app. This page is the map — every layer, every directory, and the philosophy that shaped them.
+description: Stack, philosophy, and directory map — React 19 + TS strict + Vite + Tailwind + Radix + Zustand + TanStack Query + RHF + Zod + Firebase free-tier + Capacitor.
 keywords:
   - ImtehanHub stack
   - React 19 TypeScript strict

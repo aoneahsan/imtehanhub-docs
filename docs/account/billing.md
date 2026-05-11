@@ -3,7 +3,7 @@ id: billing
 title: Billing — Free, Pro, Unlimited, and Add-on Class
 sidebar_label: Billing
 sidebar_position: 4
-description: ImtehanHub has four plan tiers — Free (3 tests/day, 1 class), Pro (PKR 299/mo, unlimited tests, 1 class), Unlimited (PKR 599/mo, unlimited tests, all classes), and Add-on Class (PKR 99/mo to add one extra class to Free or Pro). Pakistani pricing, plain rules.
+description: Four plan tiers in PKR — Free (3 tests/day, 1 class), Pro (299/mo), Unlimited (599/mo, all classes), Add-on Class (99/mo). Cancel any time, no hidden fees.
 keywords:
   - ImtehanHub pricing
   - Pakistani exam app pricing

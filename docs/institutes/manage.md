@@ -3,7 +3,7 @@ id: manage
 title: Manage students — invite, accept, remove
 sidebar_label: Manage students
 sidebar_position: 2
-description: Institute managers invite students by email, students accept via a link in their app, and the roster auto-updates. Managers can revoke pending invites and remove accepted students at any time. The student's personal account is never disrupted.
+description: Invite by email, students accept via in-app banner, roster auto-updates. Revoke pending invites or remove students any time. Personal accounts stay untouched.
 keywords:
   - invite students ImtehanHub
   - institute roster management

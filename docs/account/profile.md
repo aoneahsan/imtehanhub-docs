@@ -3,7 +3,7 @@ id: profile
 title: Profile — avatar, display name, board, opt-outs
 sidebar_label: Profile
 sidebar_position: 1
-description: Your ImtehanHub profile at /app/profile lets you set your display name, upload an avatar to your own Google Drive, pick your default board, and toggle leaderboard visibility — all stored under your account.
+description: Set display name, upload an avatar to your own Google Drive, pick a default board, and toggle leaderboard visibility — all on the /app/profile page.
 keywords:
   - ImtehanHub profile
   - student profile Pakistan

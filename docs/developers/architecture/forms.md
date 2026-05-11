@@ -3,7 +3,7 @@ id: forms
 title: Forms — React Hook Form + Zod + project-wide field components
 sidebar_label: Forms
 sidebar_position: 4
-description: Every form in ImtehanHub uses React Hook Form with Zod resolvers and a shared field-component library under src/components/form-fields. One pattern, full type-safety, fast re-renders, accessible by default.
+description: Every form uses React Hook Form + Zod with a shared field-component library. One pattern, full type-safety, isolated re-renders, accessible by default.
 keywords:
   - React Hook Form Zod
   - shared form field components

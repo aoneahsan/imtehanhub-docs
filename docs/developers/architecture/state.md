@@ -3,7 +3,7 @@ id: state
 title: State management — Zustand + persist + Capacitor-aware storage
 sidebar_label: State management
 sidebar_position: 3
-description: ImtehanHub uses Zustand for client state, TanStack Query for server state, and React Hook Form for form state. Persisted stores route through a Capacitor-aware storage adapter so the same code persists to localStorage on web and @capacitor/preferences on Android.
+description: Three state buckets — Zustand for client state, TanStack Query for server state, RHF for form state. Persisted via a Capacitor-aware storage adapter.
 keywords:
   - Zustand Capacitor storage
   - React Zustand persist middleware

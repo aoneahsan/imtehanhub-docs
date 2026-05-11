@@ -3,7 +3,7 @@ id: theme
 title: Theme customizer — appearance, accent, radius, scaling, font
 sidebar_label: Theme customizer
 sidebar_position: 2
-description: ImtehanHub ships a full Radix UI theme customizer at /app/profile/theme — switch between light, dark, and system, pick an accent colour, change border radius, scale the UI, change font size, and choose between solid and translucent panels. Settings sync across devices when you sign in.
+description: Full Radix UI theme customizer at /app/profile/theme — appearance, accent, radius, scaling, font size, panel background. Synced across devices when signed in.
 keywords:
   - ImtehanHub theme customizer
   - Radix UI theme settings

@@ -3,7 +3,7 @@ id: overview
 title: Community module — overview
 sidebar_label: Overview
 sidebar_position: 1
-description: ImtehanHub's community module lets verified Pakistani students contribute MCQs, short questions, long questions, and chapter explanations. Voted on, flagged, moderated, and (when ready) promoted to the official set.
+description: Verified Pakistani students contribute MCQs, short/long questions, and chapter explanations. Voted, flagged, moderated, and promoted to the official set when ready.
 keywords:
   - ImtehanHub community
   - student question contribution

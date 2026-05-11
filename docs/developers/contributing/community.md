@@ -3,7 +3,7 @@ id: community
 title: Contributing — community module + docs PRs
 sidebar_label: Contributing
 sidebar_position: 1
-description: ImtehanHub's app repo is private but the documentation repo and the community module are both open contribution surfaces. This page covers how to fix a typo in the docs, propose a new doc, submit a question for inclusion, become a moderator, and report issues to the developer.
+description: Three contribution paths for ImtehanHub — public docs PRs, in-app community submissions, and direct issue reports to the maintainer (Ahsan Mahmood).
 keywords:
   - contributing ImtehanHub
   - open source documentation
