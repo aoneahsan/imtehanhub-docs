@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="ImtehanHub Documentation — COMMUNITY">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="og-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <circle cx="980" cy="120" r="220" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="120" cy="540" r="180" fill="#FFFFFF" opacity="0.06"/>
+
+  <!-- Logo block (top-left, 120x120) -->
+  <g transform="translate(96 96)">
+    <rect width="120" height="120" rx="28" fill="#FFFFFF" opacity="0.18"/>
+    <g transform="translate(12 12)">
+      <path d="M0 28 L48 6 L96 28 L48 50 Z" fill="#FFFFFF"/>
+      <path d="M16 36 L16 64 L48 80 L80 64 L80 36" stroke="#FFFFFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- Eyebrow pill (differentiation anchor — uppercase letter-spaced) -->
+  <g transform="translate(96 270)">
+    <rect width="150" height="44" rx="22" fill="#FFFFFF" opacity="0.22"/>
+    <text x="20" y="30" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="2.5">COMMUNITY</text>
+  </g>
+
+  <!-- Title -->
+  <text x="96" y="385" font-family="Inter, system-ui, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF">Peer-contributed exam questions</text>
+
+  <!-- Subtitle -->
+  <text x="96" y="450" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="500" fill="#FFFFFF" opacity="0.92">Submit, vote, flag, earn — CNIC-verified contributors.</text>
+
+  <!-- Footer URL bar (brand consistency) -->
+  <rect x="96" y="520" width="1008" height="60" rx="8" fill="url(#og-card)"/>
+  <text x="120" y="560" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="500" fill="#FFFFFF">imtehanhub-docs.aoneahsan.com  ·  Built by Ahsan Mahmood (aoneahsan.com)</text>
+</svg>

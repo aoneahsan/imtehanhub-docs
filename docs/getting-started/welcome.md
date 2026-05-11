@@ -12,6 +12,7 @@ keywords:
   - FA FSc exam prep
   - Class 5 to 12 study app
 slug: /getting-started/welcome
+image: /img/og-welcome.png
 ---
 
 # Welcome to ImtehanHub

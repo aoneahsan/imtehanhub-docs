@@ -11,6 +11,7 @@ keywords:
   - past paper booklet alternatives
   - MCQ app comparison Pakistan
 slug: /compare
+image: /img/og-compare.png
 ---
 
 # ImtehanHub vs the alternatives

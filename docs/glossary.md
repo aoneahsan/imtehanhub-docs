@@ -11,6 +11,7 @@ keywords:
   - CNIC NADRA explained
   - Pakistan education terms
 slug: /glossary
+image: /img/og-glossary.png
 ---
 
 # Glossary

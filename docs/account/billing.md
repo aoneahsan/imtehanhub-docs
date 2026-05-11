@@ -11,6 +11,7 @@ keywords:
   - PKR exam prep app
   - student subscription Pakistan
 slug: /account/billing
+image: /img/og-billing.png
 ---
 
 # Billing

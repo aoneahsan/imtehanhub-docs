@@ -11,6 +11,7 @@ keywords:
   - sideload APK exam prep
   - Google Play exam app
 slug: /mobile/install
+image: /img/og-install.png
 ---
 
 # Installing the Android app

@@ -10,6 +10,7 @@ keywords:
   - hire Capacitor Firebase developer
   - solo developer credits
 slug: /credits
+image: /img/og-credits.png
 ---
 
 # Credits

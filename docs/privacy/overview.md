@@ -11,6 +11,7 @@ keywords:
   - Firestore privacy student
   - exam app privacy
 slug: /privacy/overview
+image: /img/og-privacy.png
 ---
 
 # Privacy overview

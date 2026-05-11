@@ -11,6 +11,7 @@ keywords:
   - bilingual MCQ submission
   - peer-reviewed exam content
 slug: /community/overview
+image: /img/og-community.png
 ---
 
 # Community module — overview

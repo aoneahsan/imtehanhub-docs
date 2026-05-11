@@ -11,6 +11,7 @@ keywords:
   - Pakistani exam app architecture
   - Vite Tailwind Radix Zustand
 slug: /developers/overview
+image: /img/og-developer.png
 ---
 
 # Developer overview

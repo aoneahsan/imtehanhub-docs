@@ -11,6 +11,7 @@ keywords:
   - matric FSc app questions
   - student parent FAQ
 slug: /faq
+image: /img/og-faq.png
 ---
 
 # ImtehanHub FAQ
