@@ -74,6 +74,29 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Discovery',
+      collapsed: true,
+      link: {
+        type: 'generated-index',
+        slug: '/discovery',
+        description:
+          'Public-facing browsing surfaces — subjects, blog, knowledge base, sitemap, feed, leaderboard, notifications, search, and sharing.',
+      },
+      items: [
+        'discovery/subjects',
+        'discovery/chapter-detail',
+        'discovery/blog',
+        'discovery/knowledge-base',
+        'discovery/sitemap-page',
+        'discovery/feed',
+        'discovery/leaderboard',
+        'discovery/notifications',
+        'discovery/search',
+        'discovery/share',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Community Module',
       collapsed: true,
       link: {
