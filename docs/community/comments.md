@@ -3,7 +3,7 @@ id: comments
 title: Comments on submissions
 sidebar_label: Comments
 sidebar_position: 10
-description: Verified members can comment on community submissions to discuss the question, suggest improvements, or share alternative approaches. Comments are bilingual-friendly and admin-moderated.
+description: Verified members can comment on community submissions to discuss the question, suggest improvements, or flag issues — bilingual, admin soft-delete.
 keywords:
   - community comments ImtehanHub
   - submission discussion

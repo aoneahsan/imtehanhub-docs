@@ -3,7 +3,7 @@ id: strikes-bans
 title: Strikes, 5-strike auto-ban, and the denylist
 sidebar_label: Strikes & bans
 sidebar_position: 12
-description: Confirmed wrongdoing in the community module produces strikes. Five strikes results in a permanent ban with the user's CNIC hash added to a denylist that prevents re-registration.
+description: Confirmed wrongdoing in the community module produces strikes. Five strikes results in a permanent ban plus CNIC denylist entry.
 keywords:
   - strike ban community
   - 5 strike auto ban

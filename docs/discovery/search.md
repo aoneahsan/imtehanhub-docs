@@ -3,7 +3,7 @@ id: search
 title: Search and filters across the app
 sidebar_label: Search
 sidebar_position: 9
-description: ImtehanHub has multiple search surfaces — global search across knowledge base, sitemap fuzzy search, blog tag filter, history filters, and bookmarks search. Each is tuned for its surface.
+description: Multiple search surfaces — global knowledge-base search, sitemap fuzzy search, in-test bookmark search, and chapter-level question filters.
 keywords:
   - ImtehanHub search
   - knowledge base search

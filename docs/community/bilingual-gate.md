@@ -3,7 +3,7 @@ id: bilingual-gate
 title: Bilingual gate — when both languages are required
 sidebar_label: Bilingual gate
 sidebar_position: 7
-description: Community submissions can be single-language at submit time, but both English and Urdu are required to be promoted to the official question set. Here is how the gate actually works.
+description: Community submissions can start single-language, but both English and Urdu are required to cross the eligibility bar and surface in tests.
 keywords:
   - bilingual gate ImtehanHub
   - Urdu English submission

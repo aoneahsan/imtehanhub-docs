@@ -3,7 +3,7 @@ id: during-test
 title: During the test — timer, progress, navigation, mark-for-review
 sidebar_label: During the test
 sidebar_position: 4
-description: What you see and what you can do while a test is in progress on ImtehanHub. Timer behaviour, question navigation, mark-for-review, and how to recover if your connection drops.
+description: What you see and what you can do during a test on ImtehanHub. Timer behaviour, question navigation, mark-for-review, and partial-save on disconnect.
 keywords:
   - test session ImtehanHub
   - exam timer behaviour

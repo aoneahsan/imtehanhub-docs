@@ -3,7 +3,7 @@ id: achievements
 title: Achievements — earning recognition for milestones
 sidebar_label: Achievements
 sidebar_position: 6
-description: ImtehanHub awards achievements for milestones across testing, streaks, and community contribution. The community module alone has 25 distinct badges across six tracks.
+description: 25 community achievements across six tracks — Contributor, Voter, Reviewer, Streak, Verifier, Linguist. Each unlock raises one or more daily quotas.
 keywords:
   - exam app achievements
   - study badges

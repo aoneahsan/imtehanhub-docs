@@ -3,7 +3,7 @@ id: knowledge-base
 title: Knowledge base — /learn with full-text search
 sidebar_label: Knowledge base
 sidebar_position: 4
-description: The ImtehanHub knowledge base at /learn is a public, searchable collection of long-form study aids — chapter explanations, formula sheets, exam-style worked examples, and concept guides.
+description: The /learn knowledge base is a public, searchable collection of long-form study aids — definitions, formulas, summaries, technique walkthroughs.
 keywords:
   - knowledge base ImtehanHub
   - study aids Pakistan

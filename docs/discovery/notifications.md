@@ -3,7 +3,7 @@ id: notifications
 title: Push notifications — OneSignal-powered, opt-in
 sidebar_label: Notifications
 sidebar_position: 8
-description: ImtehanHub uses OneSignal for free push notifications — streak reminders, new content alerts, blog posts, and community mentions. Off by default; opt in from /app/profile.
+description: ImtehanHub uses OneSignal for free push notifications — streak reminders, new content alerts, blog post drops. Opt-in, granular, never marketing-y.
 keywords:
   - push notifications ImtehanHub
   - OneSignal Pakistan

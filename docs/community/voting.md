@@ -3,7 +3,7 @@ id: voting
 title: Voting — eligibility threshold and process
 sidebar_label: Voting
 sidebar_position: 8
-description: Verified ImtehanHub members vote on community submissions. The eligibility threshold is net votes ≥ 10 AND gross votes ≥ 15 AND no active flags. Here is how voting actually works.
+description: Verified members vote on community submissions. Eligibility requires net votes >= 10, gross votes >= 15, and no active flag. Voters earn achievements.
 keywords:
   - community voting threshold
   - net gross votes

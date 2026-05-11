@@ -3,7 +3,7 @@ id: submit-chapter-explanation
 title: Submitting a chapter explanation
 sidebar_label: Submit Chapter Explanation
 sidebar_position: 6
-description: A chapter explanation is a standalone explainer for a full chapter or topic — bridging the gap between textbook prose and exam-ready understanding. The longest community contribution type.
+description: A chapter explanation is a standalone explainer for a full chapter or topic — bridging the gap between question banks and full textbook prose.
 keywords:
   - chapter explanation submission
   - community study notes Pakistan

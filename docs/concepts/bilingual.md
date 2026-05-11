@@ -3,7 +3,7 @@ id: bilingual
 title: Bilingual model — Urdu and English, end-to-end
 sidebar_label: Bilingual (UR + EN)
 sidebar_position: 3
-description: Every class, subject, chapter, and question on ImtehanHub carries an Urdu name. Toggle the language and the entire UI flips to RTL. Engineered from day one — not retrofitted translation.
+description: Every class, subject, chapter, and question carries an Urdu name. The language toggle flips labels and document direction to RTL when Urdu is active.
 keywords:
   - bilingual exam app
   - Urdu English study app

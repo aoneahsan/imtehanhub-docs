@@ -3,7 +3,7 @@ id: configure
 title: Configure a test — class, subject, chapter, mode
 sidebar_label: Configure a test
 sidebar_position: 1
-description: Walk through the test configuration screen — pick the class, subject, chapter, question count, mode (MCQ / Short / Long), and source. The choices that affect every test on ImtehanHub.
+description: Walk through the test configuration screen — pick class, subject, chapter, question count, mode (MCQ/Short/Long), source picker, and time limit.
 keywords:
   - configure test ImtehanHub
   - pick chapter test

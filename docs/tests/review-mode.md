@@ -3,7 +3,7 @@ id: review-mode
 title: Review mode — re-open a past test, optionally with AI explanation
 sidebar_label: Review mode
 sidebar_position: 6
-description: Open any past test from your history to re-read the questions, see the correct answers with textbook references, and optionally get an AI explanation if you provided your own API key.
+description: Re-open any past test to re-read questions, see correct answers with textbook references, and request AI explanations for items you got wrong.
 keywords:
   - test review mode
   - re-open past test

@@ -3,7 +3,7 @@ id: quotas
 title: Daily quotas — and how achievements raise them
 sidebar_label: Daily quotas
 sidebar_position: 11
-description: Submissions, votes, flags, and comments each have a daily quota. Default quotas are deliberately low; earning Contributor / Voter / Reviewer achievements raises them progressively.
+description: Submissions, votes, flags, and comments each have a daily quota. Defaults are deliberately low to deter spam; achievements raise the caps.
 keywords:
   - community daily quota
   - submission quota

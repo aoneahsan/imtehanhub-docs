@@ -3,7 +3,7 @@ id: submit-mcq
 title: Submitting an MCQ
 sidebar_label: Submit MCQ
 sidebar_position: 3
-description: A step-by-step guide to writing and submitting a multiple-choice question through the ImtehanHub community module. Covers the bilingual model, page reference, and common rejection reasons.
+description: Step-by-step guide to writing and submitting a multiple-choice question through the ImtehanHub community module — bilingual fields, validation rules.
 keywords:
   - submit MCQ ImtehanHub
   - community MCQ submission

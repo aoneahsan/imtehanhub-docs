@@ -3,7 +3,7 @@ id: source-picker
 title: Test source picker — official, community, or both
 sidebar_label: Source picker
 sidebar_position: 3
-description: Blend official questions (seeded by the team from textbooks) with community questions (submitted by verified students) using a 0-100% slider on the test configuration screen.
+description: Blend official questions (seeded from textbooks) with community questions (submitted by peers). Choose official-only, community-only, or a 0-100% mix.
 keywords:
   - test source picker
   - official vs community questions

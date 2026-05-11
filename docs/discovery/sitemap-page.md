@@ -3,7 +3,7 @@ id: sitemap-page
 title: The visual sitemap — /sitemap and fuzzy search
 sidebar_label: Sitemap page
 sidebar_position: 5
-description: The /sitemap page is a human-friendly visual index of every public page on ImtehanHub, with fuzzy search across titles and descriptions. Distinct from /sitemap.xml (the machine-readable feed for crawlers).
+description: Human-friendly visual index of every public page with fuzzy search across titles and descriptions. Distinct from /sitemap.xml which feeds crawlers.
 keywords:
   - sitemap page Pakistan
   - human sitemap

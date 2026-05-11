@@ -3,7 +3,7 @@ id: share
 title: Sharing pages and questions
 sidebar_label: Share
 sidebar_position: 10
-description: Share any ImtehanHub page directly from your browser. Test results have a built-in share card. Referral codes are baked into shared URLs so 3 successful referrals auto-upgrade you to Pro.
+description: Share any ImtehanHub page from your browser. Test results have a built-in share card. Referral links carry your code so you earn credit on signups.
 keywords:
   - share ImtehanHub
   - referral link

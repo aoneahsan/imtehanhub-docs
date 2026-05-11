@@ -3,7 +3,7 @@ id: subjects
 title: Subjects browse — class → subject → chapter
 sidebar_label: Subjects
 sidebar_position: 1
-description: The Subjects pages at /subjects, /subjects/:class, and /subjects/:class/:subject are the primary discovery surface — public and search-indexable. Browse from class to chapter without signing in.
+description: Subject pages at /subjects, /subjects/:class, and /subjects/:class/:subject are the primary discovery surface for chapter exploration.
 keywords:
   - browse subjects ImtehanHub
   - exam subjects Pakistan

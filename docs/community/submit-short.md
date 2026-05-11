@@ -3,7 +3,7 @@ id: submit-short
 title: Submitting a short question
 sidebar_label: Submit Short
 sidebar_position: 4
-description: How to write and submit a short-answer question through the ImtehanHub community module. Covers model-answer guidance, what makes a good Short, and accepted-answer alternatives.
+description: How to write and submit a short-answer question through the ImtehanHub community module — bilingual stem, expected key points, validation rules.
 keywords:
   - submit short question
   - community short answer

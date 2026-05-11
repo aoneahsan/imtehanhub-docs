@@ -14,6 +14,19 @@
   "nextEligibleRun": "2026-05-18",
   "cooldownDays": 7,
   "deploymentChecklist": "_planning/DEPLOYMENT-CHECKLIST.md",
+  "postBatchPolish": [
+    {
+      "date": "2026-05-11",
+      "label": "Description floor + FAQ landing",
+      "actions": [
+        "Tightened 25 remaining meta descriptions from 167-205 chars down to 128-153 chars (all now under the 160-char Google snippet floor)",
+        "Added docs/faq.md — 30-question landing page covering About, Pricing, Content coverage, Bilingual, Privacy, Mobile, Community, Developer/OSS, Getting started. Highest-leverage AEO citation block per Princeton GEO study.",
+        "Wired FAQ into docsSidebar (between Privacy & Data and Credits)",
+        "Fixed YAML front-matter parse error in docs/community/voting.md (inner colon hazard) — caught by Docusaurus build"
+      ],
+      "skillsInvoked": ["ai-seo", "seo-audit", "copywriting", "documentation-writer", "web-design-guidelines", "simplify"]
+    }
+  ],
   "humanOnlyStepsRemaining": [
     "Create public GitHub repo aoneahsan/imtehanhub-docs and push",
     "Confirm/create Firebase project + enable Hosting",

@@ -3,7 +3,7 @@ id: leaderboard
 title: Leaderboard — privacy-safe, denormalized
 sidebar_label: Leaderboard
 sidebar_position: 7
-description: The ImtehanHub leaderboard at /app/leaderboard ranks users by score in a privacy-safe, denormalized way — only display name and score, no email, role, or activity exposed.
+description: The /app/leaderboard ranks users by score in a privacy-safe, denormalised way — only display name and score, no email, role, or activity exposed.
 keywords:
   - ImtehanHub leaderboard
   - student ranking Pakistan

@@ -3,7 +3,7 @@ id: chapter-detail
 title: Chapter detail page — what you see, how to start
 sidebar_label: Chapter detail
 sidebar_position: 2
-description: The chapter detail page at /subjects/:class/:subject/:chapter is the deepest public surface. It shows the chapter overview, topics, question counts, related community submissions, and a Start Test CTA.
+description: Chapter detail page shows metadata, official MCQ counts, community submissions, learning resources, and a prominent Start Test call to action.
 keywords:
   - chapter page ImtehanHub
   - exam chapter detail

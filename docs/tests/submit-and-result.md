@@ -3,7 +3,7 @@ id: submit-and-result
 title: Submit and read your result — score ring, per-topic breakdown
 sidebar_label: Submit & result
 sidebar_position: 5
-description: After you submit, ImtehanHub takes you to the result page. Read the score ring, the per-topic breakdown, the answer-by-answer review with textbook references, and decide what to revise next.
+description: After submission, ImtehanHub shows the score ring, per-topic breakdown, time spent per question, and bookmark options. Streak counter updates here.
 keywords:
   - test result page
   - score ring

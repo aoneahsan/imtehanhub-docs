@@ -264,6 +264,7 @@ const sidebars: SidebarsConfig = {
         'privacy/cnic',
       ],
     },
+    {type: 'doc', id: 'faq', label: 'FAQ'},
     {type: 'doc', id: 'credits', label: 'Credits'},
   ],
 };

@@ -3,7 +3,7 @@ id: cnic-verification
 title: CNIC verification — why, how, what is stored
 sidebar_label: CNIC verification
 sidebar_position: 2
-description: To submit, vote, flag, or comment in the community module you must complete a one-time CNIC verification. Your CNIC image lives in your own Google Drive — never on ImtehanHub's infrastructure.
+description: Submit, vote, flag, or comment in the community module after a one-time CNIC verification. Your CNIC image lives in your own Drive, never on our servers.
 keywords:
   - CNIC verification ImtehanHub
   - student ID verification Pakistan
