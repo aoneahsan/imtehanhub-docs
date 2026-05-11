@@ -25,6 +25,18 @@
         "Fixed YAML front-matter parse error in docs/community/voting.md (inner colon hazard) — caught by Docusaurus build"
       ],
       "skillsInvoked": ["ai-seo", "seo-audit", "copywriting", "documentation-writer", "web-design-guidelines", "simplify"]
+    },
+    {
+      "date": "2026-05-11",
+      "label": "Compare + Glossary + strengthened Credits",
+      "actions": [
+        "Rewrote docs/credits.md — full developer profile, hire-Ahsan section, tech specialisations, engagement models, dedicated Why Ahsan section. Direct serve of user's stated profile-views goal.",
+        "Added docs/compare.md — honest comparison of ImtehanHub vs tuition academies, past-paper booklets, other paid MCQ apps, free YouTube/PDF channels. Comparison pages get ~33% of all AI citations per Princeton GEO (KDD 2024) — highest of any content type.",
+        "Added docs/glossary.md — 35+ Pakistani exam and platform terms with definitions (Matric, FA/FSc, BISE, FBISE, CNIC, NADRA, Nastaliq, Tesseract, etc). Serves as a definition source for AI extractors answering 'what does X mean in Pakistani education?' queries.",
+        "Wired Compare and Glossary into the docsSidebar (next to FAQ and Credits at the root level).",
+        "Fixed slug-based internal links (Docusaurus routeBasePath /docs means slugs resolve under /docs/, so /faq must be /docs/faq for inter-doc links)."
+      ],
+      "skillsInvoked": ["copywriting", "documentation-writer", "ai-seo", "seo-audit", "web-design-guidelines", "frontend-design", "simplify"]
     }
   ],
   "humanOnlyStepsRemaining": [

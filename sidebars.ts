@@ -265,6 +265,8 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {type: 'doc', id: 'faq', label: 'FAQ'},
+    {type: 'doc', id: 'compare', label: 'Compare'},
+    {type: 'doc', id: 'glossary', label: 'Glossary'},
     {type: 'doc', id: 'credits', label: 'Credits'},
   ],
 };
