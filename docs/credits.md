@@ -48,7 +48,7 @@ image: /img/og-credits.png
 | Backend | Firebase free tier (Firestore, Auth, Hosting, Analytics), Cloudflare Workers |
 | Data | Free-source web scrapers, Node.js transforms, Firestore seeding pipelines |
 | SEO / AEO | Postbuild static-HTML prerendering, per-route JSON-LD, AI-bot allowlisting, llms.txt + ai.txt, IndexNow |
-| Quality | Vitest, ESLint strict, TypeScript noUncheckedIndexedAccess |
+| Quality | ESLint strict, TypeScript noUncheckedIndexedAccess |
 
 ### Why I'm a useful hire
 
