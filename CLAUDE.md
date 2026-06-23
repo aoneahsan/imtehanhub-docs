@@ -1,8 +1,10 @@
 # ImtehanHub Docs — Project Memory (CLAUDE.md)
 
-**Last Updated**: 2026-05-29
+**Last Updated**: 2026-06-23
 
 Public documentation / knowledge-base site (Docusaurus 3) for **ImtehanHub** — a free, bilingual (Urdu + English) Pakistani exam-preparation platform for Class 5 → 2nd Year (FA/FSc). This repo is the docs surface only; the ImtehanHub **app** lives in a separate, private repo (`com.aoneahsan.imtehanhub`, https://imtehanhub.aoneahsan.com).
+
+> **Finalization 2026-06-23:** repo flipped **PUBLIC** (free GitHub Pages, per fleet docs-public policy). Content verified complete (74 md/mdx, no real "coming soon" gaps) and SEO floor in place (robots AI-allowlist, llms.txt/ai.txt, JSON-LD WebSite+Organization+SoftwareApplication, build-time sitemap, cross-links to the app + Play Store). `yarn build` exits 0 in a standalone checkout (verified in isolation); the only in-place failure is the parent-monorepo `.gitmodules` quirk documented below — not a content defect, and it does not occur in CI.
 
 ---
 

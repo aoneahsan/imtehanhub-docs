@@ -1,8 +1,10 @@
 # ImtehanHub Docs — Agent Guide (AGENTS.md)
 
-**Last Updated**: 2026-05-29
+**Last Updated**: 2026-06-23
 
 > Kept in sync with `CLAUDE.md`. Update one → update the other.
+
+> **Finalization 2026-06-23:** repo flipped **PUBLIC** (free GitHub Pages). Content complete (74 md/mdx); SEO floor in place (robots AI-allowlist, llms.txt/ai.txt, JSON-LD WebSite+Organization+SoftwareApplication, build-time sitemap, app + Play Store cross-links). `yarn build` exits 0 in a standalone checkout (verified in isolation); in-place it fails only on the parent-monorepo `.gitmodules` quirk documented below — not a content defect, absent in CI.
 
 Public documentation / knowledge-base site (Docusaurus 3) for **ImtehanHub** — a free, bilingual (Urdu + English) Pakistani exam-preparation platform for Class 5 → 2nd Year (FA/FSc). This repo is the docs surface only; the ImtehanHub **app** lives in a separate, private repo (`com.aoneahsan.imtehanhub`, https://imtehanhub.aoneahsan.com).
 
