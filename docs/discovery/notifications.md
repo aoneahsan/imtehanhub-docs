@@ -56,6 +56,12 @@ All categories are off by default. Opt in only to what you actually want.
 
 If you previously denied permission, you may need to clear it from your browser / device settings before re-opting.
 
+## The post-test prompt
+
+Instead of asking at sign-in (a well-known way to get refused), ImtehanHub offers notifications **after you finish a test** — the moment they are actually relevant. A gentle, dismissible prompt appears after your **first** test, and occasionally after later tests, inviting you to turn on reminders.
+
+It is opt-in and low-pressure: dismiss it a few times and it stops asking. You can always enable or disable notifications yourself from **Profile** whenever you like — the post-test prompt is just a convenient shortcut, never the only way in.
+
 ## What ImtehanHub never sends
 
 To preserve trust and not become spam, ImtehanHub never sends:
@@ -102,7 +108,7 @@ Yes — the OneSignal subscription ID is stored in your user document. We use it
 
 ### Why was I not asked at sign-in?
 
-Asking at sign-in is a known anti-pattern (high reject rate when out of context). Notifications are off by default and you opt in deliberately on the Profile page.
+Asking at sign-in is a known anti-pattern (high reject rate when out of context). Notifications are off by default. You are offered them after your first test (see [The post-test prompt](#the-post-test-prompt)), and you can opt in deliberately on the Profile page any time.
 
 ### Can I opt in to only the streak reminder?
 

@@ -103,6 +103,8 @@ For sideloaded installs the in-app banner tells you when an update is out:
 
 Tap Update and the latest APK download begins.
 
+Separately, the Android app can refresh its content **over the air** — between full app updates — and asks before applying. See [Updates and what's new](/docs/mobile/updates).
+
 ## Uninstalling
 
 Standard Android uninstall:

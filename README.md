@@ -12,7 +12,7 @@ The **ImtehanHub application** is private (proprietary). **This documentation si
 
 - [Docusaurus 3](https://docusaurus.io) classic preset (TypeScript)
 - React 19, MDX
-- Firebase Hosting (free tier) at `imtehanhub-docs.aoneahsan.com`
+- GitHub Pages + custom domain at `imtehanhub-docs.aoneahsan.com` (`static/CNAME`)
 - AI-bot-friendly: `robots.txt`, `llms.txt`, `ai.txt`, JSON-LD, sitemap.xml, RSS feed
 
 ## Local development
@@ -26,14 +26,11 @@ yarn serve            # Serve the built site locally on port 3000
 
 > `yarn start` runs the Docusaurus dev server — fine for local previews while writing docs. CI and deploys run `yarn build` only.
 
-## Deploy (Firebase Hosting)
+## Deploy (GitHub Pages)
 
-```bash
-yarn build
-npx -y firebase-tools@latest deploy --only hosting
-```
+Deployment is automatic. Every push to `main` runs the [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) workflow, which builds the site with `yarn build` and publishes `build/` to GitHub Pages via the official `upload-pages-artifact` / `deploy-pages` actions. You can also trigger it manually from the Actions tab (**Deploy to GitHub Pages → Run workflow**).
 
-The `firebase.json` is preconfigured with cache headers for static assets, correct content types for `llms.txt` / `ai.txt` / `sitemap.xml`, security headers, and a redirect from `/docs` to `/docs/getting-started/welcome`.
+The custom domain `imtehanhub-docs.aoneahsan.com` is set by [`static/CNAME`](./static/CNAME) (copied into `build/` on every build). One-time repo setup: **Settings → Pages → Source: GitHub Actions**.
 
 ## Project structure
 
@@ -56,10 +53,9 @@ imtehanhub-docs/
 │   ├── humans.txt
 │   ├── CNAME            # Custom domain
 │   └── .well-known/security.txt
+├── .github/workflows/   # deploy.yml — build + publish to GitHub Pages
 ├── docusaurus.config.ts # Site config + SEO
-├── sidebars.ts          # Diátaxis-aware sidebars
-├── firebase.json
-└── .firebaserc
+└── sidebars.ts          # Diátaxis-aware sidebars
 ```
 
 ## Resumability

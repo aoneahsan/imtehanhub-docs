@@ -8,7 +8,7 @@ description: The official ImtehanHub documentation site goes live at imtehanhub-
 
 The official **[ImtehanHub documentation site](https://imtehanhub-docs.aoneahsan.com)** is now live.
 
-The site is built on [Docusaurus 3](https://docusaurus.io) and deployed to Firebase Hosting. It uses the same brand language as the main app — Emerald 600 → Sky 500 gradient, Inter for type, full light/dark mode that respects OS preference.
+The site is built on [Docusaurus 3](https://docusaurus.io) and deployed to GitHub Pages. It uses the same brand language as the main app — Emerald 600 → Sky 500 gradient, Inter for type, full light/dark mode that respects OS preference.
 
 {/* truncate */}
 
@@ -31,7 +31,7 @@ This first cut ships:
 - **SEO baseline** — per-page metadata, JSON-LD (`WebSite`, `Organization`, `SoftwareApplication`), OG cards, sitemap, RSS feed.
 - **AI-bot allowlist** — explicit `Allow:` for GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot, Applebot-Extended, and more.
 - **Crawler artefacts** — `robots.txt`, `llms.txt`, `ai.txt`, `humans.txt`, `.well-known/security.txt`.
-- **Firebase Hosting config** — cache headers, security headers, correct content types for the text files above.
+- **GitHub Pages deploy** — a GitHub Actions workflow builds the site and publishes it on every push to `main`.
 - **Diátaxis sidebar structure** — placeholders ready for content batches 1 through 7.
 
 ## What's next

@@ -14,7 +14,7 @@ Open-source maintainers of React, Vite, Tailwind, Radix UI, Capacitor, Firebase,
 Last update: 2026-05-10
 Standards: HTML5, CSS3, MDX
 Components: Docusaurus 3, React 19, TypeScript
-Software: VS Code, Git, Firebase Hosting
+Software: VS Code, Git, GitHub Pages
 
 /* APP */
 Live app: https://imtehanhub.aoneahsan.com

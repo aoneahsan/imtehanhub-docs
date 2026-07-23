@@ -1,6 +1,6 @@
 # ImtehanHub Docs — Project Memory (CLAUDE.md)
 
-**Last Updated**: 2026-06-23
+**Last Updated**: 2026-07-23
 
 Public documentation / knowledge-base site (Docusaurus 3) for **ImtehanHub** — a free, bilingual (Urdu + English) Pakistani exam-preparation platform for Class 5 → 2nd Year (FA/FSc). This repo is the docs surface only; the ImtehanHub **app** lives in a separate, private repo (`com.aoneahsan.imtehanhub`, https://imtehanhub.aoneahsan.com).
 
@@ -19,7 +19,7 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 | Field | Value |
 | --- | --- |
 | Slug | `imtehanhub-docs` |
-| Live docs URL | https://imtehanhub-docs.aoneahsan.com (canonical in `docusaurus.config.ts`; deploy target Firebase Hosting, project `imtehanhub-docs`) |
+| Live docs URL | https://imtehanhub-docs.aoneahsan.com (canonical in `docusaurus.config.ts`; deploy target **GitHub Pages**, custom domain via `static/CNAME`) |
 | Parent app | **ImtehanHub** — https://imtehanhub.aoneahsan.com · app id `com.aoneahsan.imtehanhub` |
 | Repo (declared) | https://github.com/aoneahsan/imtehanhub-docs (this docs repo is MIT/open; the app is private). **No git remote configured in this local checkout.** |
 | Stack | Docusaurus 3.10.1 · React 19 · TypeScript 6 · Yarn 4.14.1 · Node ≥20 |
@@ -34,7 +34,7 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 - `blog/` — Changelog (routed at `/changelog`), 1 post so far (docs launch).
 - `src/pages/index.tsx` — branded home page; `src/css/custom.css` — Emerald→Sky brand theme (light + dark).
 - `static/` — `robots.txt` (AI-bot allowlist + sitemap directive), `llms.txt`, `ai.txt`, `humans.txt`, `.well-known/security.txt`, `CNAME`, per-route OG images (SVG + PNG), `logo.svg`, `favicon.svg`.
-- `sidebars.ts` — two sidebars (Docs + Developer). `firebase.json` / `.firebaserc` — Firebase Hosting config.
+- `sidebars.ts` — two sidebars (Docs + Developer). `.github/workflows/deploy.yml` — GitHub Pages deploy (build + publish `build/` on push to `main`).
 - `_planning/` — resumable build state (`scope.md`, `plan.md`, `tracker.json`).
 
 ---
@@ -45,8 +45,9 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 yarn install          # yarn only (no npm/pnpm)
 yarn typecheck        # tsc — must be clean
 yarn build            # docusaurus build → ./build (0 errors)
-npx -y firebase-tools@latest deploy --only hosting
 ```
+
+**Deploy: GitHub Pages via `.github/workflows/deploy.yml`** — pushing to `main` builds and publishes `build/` automatically (one-time: repo Settings → Pages → Source: GitHub Actions). No Firebase.
 
 **NEVER run `yarn start` / dev server here** (per global rule — the user runs servers).
 

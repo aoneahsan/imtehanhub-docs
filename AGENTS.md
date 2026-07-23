@@ -1,6 +1,6 @@
 # ImtehanHub Docs — Agent Guide (AGENTS.md)
 
-**Last Updated**: 2026-06-23
+**Last Updated**: 2026-07-23
 
 > Kept in sync with `CLAUDE.md`. Update one → update the other.
 
@@ -21,7 +21,7 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 | Field | Value |
 | --- | --- |
 | Slug | `imtehanhub-docs` |
-| Live docs URL | https://imtehanhub-docs.aoneahsan.com (canonical in `docusaurus.config.ts`; deploy target Firebase Hosting, project `imtehanhub-docs`) |
+| Live docs URL | https://imtehanhub-docs.aoneahsan.com (canonical in `docusaurus.config.ts`; deploy target **GitHub Pages**, custom domain via `static/CNAME`) |
 | Parent app | **ImtehanHub** — https://imtehanhub.aoneahsan.com · app id `com.aoneahsan.imtehanhub` |
 | Repo (declared) | https://github.com/aoneahsan/imtehanhub-docs (docs MIT/open; app private). **No git remote configured in this local checkout.** |
 | Stack | Docusaurus 3.10.1 · React 19 · TypeScript 6 · Yarn 4.14.1 · Node ≥20 |
@@ -36,7 +36,7 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 - `blog/` — Changelog (routed at `/changelog`), 1 post so far.
 - `src/pages/index.tsx` — branded home page; `src/css/custom.css` — Emerald→Sky brand theme (light + dark).
 - `static/` — `robots.txt` (AI-bot allowlist + sitemap directive), `llms.txt`, `ai.txt`, `humans.txt`, `.well-known/security.txt`, `CNAME`, per-route OG images (SVG + PNG), `logo.svg`, `favicon.svg`.
-- `sidebars.ts` — Docs + Developer sidebars. `firebase.json` / `.firebaserc` — Firebase Hosting.
+- `sidebars.ts` — Docs + Developer sidebars. `.github/workflows/deploy.yml` — GitHub Pages deploy (build + publish `build/` on push to `main`).
 - `_planning/` — resumable build state.
 
 ---
@@ -47,8 +47,9 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 yarn install          # yarn only (no npm/pnpm)
 yarn typecheck        # tsc — must be clean
 yarn build            # docusaurus build → ./build (0 errors)
-npx -y firebase-tools@latest deploy --only hosting
 ```
+
+**Deploy: GitHub Pages via `.github/workflows/deploy.yml`** — pushing to `main` builds and publishes `build/` automatically (one-time: repo Settings → Pages → Source: GitHub Actions). No Firebase.
 
 **NEVER run `yarn start` / dev server here** (the user runs servers).
 

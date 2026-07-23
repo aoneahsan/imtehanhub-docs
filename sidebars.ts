@@ -147,6 +147,7 @@ const sidebars: SidebarsConfig = {
         'tests/bookmarks',
         'tests/history',
         'tests/streaks',
+        'tests/past-papers',
       ],
     },
     {
@@ -247,6 +248,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'mobile/install',
         'mobile/offline',
+        'mobile/updates',
       ],
     },
     {

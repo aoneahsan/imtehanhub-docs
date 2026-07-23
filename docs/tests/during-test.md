@@ -94,7 +94,11 @@ ImtehanHub saves your answer state on **every option click** and **every keystro
 - **Marks-for-review** are written to `testSessions/{sessionId}.markedForReview` array.
 - **Local cache** keeps a copy in `@capacitor/preferences` for offline resilience.
 
-If your tab crashes, your network drops, or the app force-quits, you can re-open the test from `/app/history` and resume from where you left off — answers and marks intact.
+### Refresh recovery
+
+Because your progress is saved on every answer, an **interrupted test is restored automatically** — you do not lose your work. If you refresh the page, close the tab, or the app force-quits mid-test, re-opening the same test brings you straight back to it, at your **first unanswered question**, with every answer and mark intact. No "start over", no lost session.
+
+You can also re-open an in-progress test from `/app/history` or the Dashboard's "Continue test" card. Both routes restore the same saved state.
 
 ## Submitting
 
