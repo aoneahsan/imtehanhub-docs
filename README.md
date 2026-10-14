@@ -18,7 +18,7 @@ The **ImtehanHub application** is private (proprietary). **This documentation si
 ## Local development
 
 ```bash
-yarn install          # Install dependencies (yarn only — no npm/pnpm)
+yarn install --immutable # Install dependencies (yarn only — no npm/pnpm)
 yarn build            # Production build into ./build (must be 0 errors)
 yarn typecheck        # TypeScript check
 yarn serve            # Serve the built site locally on port 3000
@@ -28,7 +28,7 @@ yarn serve            # Serve the built site locally on port 3000
 
 ## Deploy (GitHub Pages)
 
-Deployment is automatic. Every push to `main` runs the [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) workflow, which builds the site with `yarn build` and publishes `build/` to GitHub Pages via the official `upload-pages-artifact` / `deploy-pages` actions. You can also trigger it manually from the Actions tab (**Deploy to GitHub Pages → Run workflow**).
+Deployment is automatic. Every push to `main` runs the [`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml) workflow, which builds the site with `yarn build` and publishes `build/` to GitHub Pages via the official `upload-pages-artifact` / `deploy-pages` actions. You can also trigger it manually from the Actions tab (**Deploy to GitHub Pages → Run workflow**).
 
 The custom domain `imtehanhub-docs.aoneahsan.com` is set by [`static/CNAME`](./static/CNAME) (copied into `build/` on every build). One-time repo setup: **Settings → Pages → Source: GitHub Actions**.
 
